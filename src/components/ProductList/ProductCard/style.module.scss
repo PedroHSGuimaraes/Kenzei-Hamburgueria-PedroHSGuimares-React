@@ -1,0 +1,110 @@
+.boxProductCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+  gap: 2rem;
+
+ 
+
+}
+
+
+li{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 100%;
+  width: 240px;
+  height: 267px;
+
+
+  border-radius: 0.5rem;
+  border: 0.2rem solid var(--color-grey-100);
+
+
+  background-color: var(--color-grey-100);
+
+  padding: 1rem;
+  margin: 1rem;
+ &:hover{
+  border: 2px solid var(--color-primary)   ; 
+  background-color: var(--color-white);
+  box-shadow: 0px 0px 5px 0px rgba(28, 175, 23, 0.75);
+  transition: 0.5s;
+  cursor: pointer;
+
+}
+ 
+
+
+
+img{
+  width: 107px;
+  height: 102px;
+  margin-right: 20px;
+
+}
+
+.boxProductCard--container{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 100%;
+    width: 24rem;
+    position: relative;
+    right: 1.1rem;
+    background-color: var(--color-white);
+    height: 14.4rem;
+    border-radius: 0.5rem;
+    border: 0.01rem solid var(--color-grey-100);
+    padding: 1.1rem;
+    gap: 1rem ;
+    
+    &:hover{
+      border: 2px  solid var(--color-primary);
+      background-color: var(--color-white);
+      box-shadow: 0px 0px 5px 0px rgba(28, 175, 23, 0.75);
+      transition: 0.5s;
+      cursor: pointer;
+    }
+
+    p{
+      color:var(--color-primary);
+    }
+    span {
+      color: var(--color-grey-300);
+    }
+    button{
+      display: inline-flex;
+      height: 3.5rem;
+      padding: 0rem 2.0rem;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      flex-shrink: 0;
+      border-radius: 0.8rem;
+      border: 0.2rem solid var( --color-grey-400);
+      background: var( --color-grey-400);
+      color: var(--color-white);
+
+      &:hover{
+      border: 0.2rem solid var(--color-primary);
+      background-color: var(--color-primary);
+      box-shadow: 0px 0px 5px 0px rgba(28, 175, 23, 0.75);
+      transition: 0.5s;
+
+  
+    }
+  }
+}
+}
+
+
+

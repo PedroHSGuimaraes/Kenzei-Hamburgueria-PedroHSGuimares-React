@@ -1,0 +1,46 @@
+.heading {
+  font-family: var(--font-primary);
+  line-height: 1.4;
+
+  &.heading__one {
+    font-size: 2.6rem;
+    font-weight: 700;
+  }
+
+  &.heading__two {
+    font-size: 2.2rem;
+    font-weight: 700;
+  }
+
+  &.heading__three {
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+}
+
+.headline {
+  font-family: var(--font-primary);
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+.body {
+  font-family: var(--font-primary);
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.body--bold {
+  font-family: var(--font-primary);
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 1.6;
+}
+.capition {
+  font-family: var(--font-primary);
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}

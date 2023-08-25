@@ -1,0 +1,20 @@
+.boxCard {
+ display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  flex-wrap: wrap;
+  height: 682px;
+  gap: 2rem;
+
+
+  
+}
+
+
+@media screen and (max-width: 579px) {
+  .boxCard {
+    justify-content: center;
+  }
+}
